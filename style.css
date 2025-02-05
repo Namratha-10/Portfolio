@@ -1,0 +1,476 @@
+body {
+       background-image: url("assets/Purple\ and\ Pink\ Gradient\ Simple\ Neon\ Futuristic\ Technology\ Desktop\ Wallpaper.png");
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        height: 100vh; 
+        
+        background: url('assets/Purple\ and\ Pink\ Gradient\ Simple\ Neon\ Futuristic\ Technology\ Desktop\ Wallpaper.png') no-repeat center center fixed;
+        background-size:cover;
+            
+}
+body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+       
+        z-index:-1;
+}
+.navbar {
+  background: url('Purple\ and\ Pink\ Gradient\ Simple\ Neon\ Futuristic\ Technology\ Desktop\ Wallpaper.png') no-repeat center center;
+  background-size: cover;
+  border: none;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1050; /* Ensures it stays on top */
+  background-color: rgba(194, 40, 101, 0.9) !important; /* Dark semi-transparent */
+}
+
+/* Ensure body content does not hide behind navbar */
+body {
+  padding-top: 70px; /* Adjust for navbar height */
+}
+
+/* Navbar Link Hover & Active */
+.navbar-nav .nav-link {
+  font-size: 18px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover, 
+.navbar-nav .nav-link.active {
+  color: #bc3a5d !important; /* Yellow highlight */
+  font-weight: bold;
+}
+
+/* Navbar Toggler (Mobile) */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler i {
+  color: white; /* Menu icon color */
+}
+/* Transparent Sticky Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1050; /* Ensures navbar stays on top */
+  background: transparent !important; /* Fully transparent */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Change navbar background color when scrolling */
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.8) !important; /* Dark background with transparency */
+}
+
+/* Ensure body content does not get hidden behind navbar */
+body {
+  padding-top: 70px; /* Adjust for navbar height */
+}
+
+/* Navbar Link Styling */
+.navbar-nav .nav-link {
+  font-size: 18px;
+  color: #ffffff !important; /* White text */
+  transition: color 0.3s ease-in-out;
+}
+
+/* Navbar Hover & Active Link */
+.navbar-nav .nav-link:hover, 
+.navbar-nav .nav-link.active {
+  color: rgb(131, 44, 44) !important; /* Highlight color */
+  font-weight: bold;
+}
+
+/* Navbar Toggler (for mobile view) */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler i {
+  color: white; /* Menu icon color */
+}
+
+body {
+  min-height: 200vh; /* Ensure scrolling */
+}
+
+.logo-name {
+  font-family: 'Agustina', 'Rubik', sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 30px;
+}
+.about{
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 30px;
+}
+.section-title{
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 30px;
+}
+.projects-title{
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 30px;
+}
+.name{
+  color: #d071c4; /* Neon Cyan */
+    text-shadow: 0 0 5px #621c46, 0 0 10px #e35962, 0 0 20px #d72a41, 0 0 40px #d10fb1;
+}
+.nav-link{
+  background-color: transparent;
+  margin: 10px;
+  border: 1px pink;
+  padding: 10px 25px !important;
+  text-align: center;
+}
+.nav-link{
+  background-color: pink;
+  color: #d10fb1;
+}
+
+.interests-section {
+        background-color: transparent;
+        padding: 50px 0;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 40px;
+        color: #333;
+    }
+    
+    .interests-list {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+    .interest-item {
+        background-color: transparent;
+        border: 1px solid #ddd;
+        padding: 20px;
+        width: 250px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .interest-item:hover {
+        transform: translateY(-10px);
+    }
+    
+    .interest-icon {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    
+.interest-item h3 {
+        font-size: 1.5rem;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    
+.interest-item p {
+        font-size: 1rem;
+        color: #777;
+    }
+
+@media screen and (max-width: 768px) {
+        .interests-list {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+   
+.image-container {
+        width: 500px;
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+       
+       
+    }
+  
+    
+    
+  
+
+  @font-face {
+    font-family: 'Star Blush';
+    src: url('fonts/StarBlushSerif-Regular.woff2') format('woff2'),
+         url('fonts/StarBlushSerif-Regular.ttf') format('truetype');
+}
+
+
+h1 {
+    font-family: 'Star Blush',serif;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Mangoli';
+    src: url('fonts/Mangoli.ttf') format('truetype'),
+         url('fonts/Mangoli.woff2') format('woff2'); /* Use WOFF2 for better performance */
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-family: 'Mangoli', sans-serif;
+    font-size: 18px;
+    color: rgb(79, 70, 70);
+    line-height: 1.6;
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes moveUp {
+    0% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  h1 {
+    animation: fadeIn 2s ease-in, moveup 1s ease-out;
+  }  
+  p{
+        animation: fadeIn 2s ease-in, moveUp 1s ease-out;
+  }
+  #pulse {
+	-webkit-animation: animate__pulse 1s ease-in-out infinite both;
+	        animation: animate__pulse 1s ease-in-out infinite both;
+}
+
+ @-webkit-keyframes animate__pulse{
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes animate__pulse {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  #aboutBtn {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        color: black;
+        border-radius: 5px;
+    }
+    #arrow {
+        transition: transform 0.3s ease; /* Smooth rotation */
+        transform: translateY(-50%);
+        animation: moveArrow 2s infinite linear;
+    }
+    #aboutSection {
+        display: none;
+        margin-top: 20px;
+        padding: 15px;
+        background-color: transparent;
+        border-radius: 5px;
+    }
+    h2 {
+        font-family: "Anton", serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+.para{
+        font-family: "Arimo", serif;
+        font-optical-sizing: auto;
+}
+.card img {
+        width: 100%;
+        height: 125px;
+        object-fit: cover;
+    }
+    .skill-icon {
+        width: 15px; /* Adjust the size as needed */
+        height: 15px; /* Maintain aspect ratio or adjust as needed */
+        object-fit: contain; /* Ensures the image fits without distortion */
+      }
+.skill-item{
+        padding: 5px;
+}
+.image{
+        height: 50%;
+}
+.projects-section {
+        background-color: transparent;
+        padding: 50px 0;
+        text-align: center;
+    }
+  
+    .projects-title {
+        color: #ffffff;
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+  
+    .projects-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+  
+    .projects-item {
+        background-color: transparent;
+        border-radius: 10px;
+        padding: 20px;
+        width: 400px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0px 4px 10px rgb(217, 93, 203);
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        height: 450px; /* Initial height of the card */
+        transition: height 0.5s ease-in-out;
+    }
+  
+    .projects-item:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 10px 25px rgb(204, 72, 103);
+    }
+  
+    .projects-icon {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        margin-bottom: 15px;
+    }
+  
+    .projects-item h3 {
+        color: aliceblue;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+  
+    .alltext {
+        color: #cccccc;
+        font-size: 14px;
+    }
+  
+    /* Hidden Detailed Section */
+    .details {
+        display: none;
+        background: transparent;
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 15px;
+        color: white;
+        text-align: left;
+    }
+  
+    /* Expanded Card Styling */
+    .projects-item.expanded {
+        height: auto; /* Card height expands when clicked */
+    }
+  
+    .projects-item.expanded .details {
+        display: block; /* Show the details when the card is expanded */
+    }
+      
